@@ -11,6 +11,7 @@ function UserForm() {
     height: '',
   });
   const [formSent, setFormSent] = useState(false);
+  const [currentStep, setCurrentStep] = useState(1);
 
   function handleFormSubmit(e) {
     // perimti formos valdyma ir neleisti perkrauti
@@ -18,6 +19,7 @@ function UserForm() {
     console.log('lets react');
     console.log(inputs);
     setFormSent(true);
+    setCurrentStep(2);
   }
 
   function handleInput(e) {
@@ -29,8 +31,8 @@ function UserForm() {
 
   return (
     <div className='container'>
-      <h2>UserForm</h2>
-      {!formSent && (
+      <h2>UserForm {currentStep}/3</h2>
+      {currentStep === 1 && (
         <form onSubmit={handleFormSubmit}>
           <input
             value={inputs.firstName}
@@ -77,19 +79,19 @@ function UserForm() {
           <Btn submit>Add</Btn>
         </form>
       )}
-      {formSent && (
+      {currentStep === 2 && (
         <div className='formSuccess'>
           <h2>Patikrinkite duomenis</h2>
           <p>
             Name: {inputs.firstName}, Lastname: {inputs.lastName}
           </p>
           <p>Town: {inputs.town}</p>
-          <Btn onClick={() => setFormSent(false)}>Go back</Btn>
-          <Btn>Siusti</Btn>
+          <Btn onClick={() => setCurrentStep(1)}>Go back</Btn>
+          <Btn onClick={() => setCurrentStep(3)}>Siusti</Btn>
         </div>
       )}
 
-      {/* <div>Forma isiusta</div> */}
+      {currentStep === 3 && <div>Forma isiusta</div>}
     </div>
   );
 }
