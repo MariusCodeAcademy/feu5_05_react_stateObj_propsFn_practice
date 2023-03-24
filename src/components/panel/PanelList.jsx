@@ -8,13 +8,20 @@ function PanelList() {
   return (
     <Card>
       <Panel
+        title='Html'
         openCurrentPanel={() => setCurrentOpenPanelIndex(1)}
         showText={currentOpenPanelIndex === 1}
-      ></Panel>
+      >
+        Html is the structure of the web
+      </Panel>
       <Panel
+        title='Css'
         openCurrentPanel={() => setCurrentOpenPanelIndex(2)}
         showText={currentOpenPanelIndex === 2}
-      ></Panel>
+      >
+        {' '}
+        Css is the design, and how it looks
+      </Panel>
       <Panel
         openCurrentPanel={() => setCurrentOpenPanelIndex(3)}
         showText={currentOpenPanelIndex === 3}
