@@ -11,7 +11,7 @@ export const initPanelsData = [
     title: 'CSS',
     content:
       'CSS stands for Cascading Style Sheets. It is used to style the HTML content and layout of a web page.',
-    isExpanded: false,
+    isExpanded: true,
   },
   {
     id: 3,
