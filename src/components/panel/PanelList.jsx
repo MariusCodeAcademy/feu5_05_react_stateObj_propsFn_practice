@@ -7,9 +7,18 @@ function PanelList() {
 
   return (
     <Card>
-      <Panel showText={currentOpenPanelIndex === 1}></Panel>
-      <Panel showText={currentOpenPanelIndex === 2}></Panel>
-      <Panel showText={currentOpenPanelIndex === 3}></Panel>
+      <Panel
+        openCurrentPanel={() => setCurrentOpenPanelIndex(1)}
+        showText={currentOpenPanelIndex === 1}
+      ></Panel>
+      <Panel
+        openCurrentPanel={() => setCurrentOpenPanelIndex(2)}
+        showText={currentOpenPanelIndex === 2}
+      ></Panel>
+      <Panel
+        openCurrentPanel={() => setCurrentOpenPanelIndex(3)}
+        showText={currentOpenPanelIndex === 3}
+      ></Panel>
     </Card>
   );
 }

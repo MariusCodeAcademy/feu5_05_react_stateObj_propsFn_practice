@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="yn4HMiLhbowAnRHB-dp4" name="Page-1">
-        <mxGraphModel dx="772" dy="1446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1103" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -42,6 +42,50 @@
                 </mxCell>
                 <mxCell id="13" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #80ffbb;&quot;&gt;App/&lt;/span&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="280" y="-140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="18" target="19" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="18" target="20" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="18" target="21" parent="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #80ffbb;&quot;&gt;PanelList /&lt;/span&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="-70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #80ffbb;&quot;&gt;Panel&lt;/span&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #80ffbb;&quot;&gt;Panel&lt;/span&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #80ffbb;&quot;&gt;Panel&lt;/span&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;div style=&quot;background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(255, 255, 255); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #9effff;&quot;&gt;button&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255, 255, 255); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #9effff;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #ffc600;font-style: italic;&quot;&gt;onClick&lt;/span&gt;&lt;span style=&quot;color: #ff9d00;&quot;&gt;=&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: #ffc600;&quot;&gt;openPanel&lt;/span&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;}&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(255, 255, 255); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;gt;&lt;/span&gt;show&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span style=&quot;color: #9effff;&quot;&gt;button&lt;/span&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="260" width="130" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;div style=&quot;background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#e1efff&quot;&gt;state: true&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="810" y="220" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;div style=&quot;background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;font color=&quot;#e1efff&quot;&gt;state: false&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="220" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;div style=&quot;background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(255, 255, 255); line-height: 19px;&quot;&gt;showText&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="220" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="19">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="810" y="95"/>
+                            <mxPoint x="740" y="95"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="&lt;div style=&quot;background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;color: rgb(255, 255, 255); line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #ffc600;&quot;&gt;setCurrentOpenPanelIndex&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="-10" width="280" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
