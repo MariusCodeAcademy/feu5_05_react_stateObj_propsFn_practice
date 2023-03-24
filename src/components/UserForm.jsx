@@ -81,3 +81,7 @@ function UserForm() {
 }
 
 export default UserForm;
+
+// supildzius ir pateikus forma, forma paslepiam
+// rodom html kortele su visais uzpildytais duomenimis
+// pridedi mygtuka "back" kuris atgal parodytu forma ir pasleptu kortele
