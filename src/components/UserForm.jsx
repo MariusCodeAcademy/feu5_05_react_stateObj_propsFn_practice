@@ -11,30 +11,69 @@ function UserForm() {
     height: '',
   });
 
-  function hancleFormSubmit() {
+  function handleFormSubmit(e) {
     // perimti formos valdyma ir neleisti perkrauti
+    e.preventDefault();
+    console.log('lets react');
+    console.log(inputs);
   }
 
-  function handleFirstnameInput() {
-    inputs.firstName = '';
-  }
-  function handleLastnameInput() {
-    inputs.lastName = '';
+  function handleInput(e) {
+    const field = e.target.name;
+    const value = e.target.value;
+    // const { name, value } = e.target;
+    setInputs({ ...inputs, [field]: value });
   }
 
   return (
     <div className='container'>
-      <h2 onClick={handleBtnClick}>UserForm</h2>
-      <Btn className='' onClick={handleBtnClick}>
-        Click me
-      </Btn>
-      <form>
-        <input type='text' name='firstName' placeholder='first Name' />
-        <input type='text' name='lastName' placeholder='Last Name' />
-        <input type='text' name='town' placeholder='Town' />
-        <input type='text' name='hobbies' placeholder='hobbies' />
-        <input type='number' name='age' placeholder='age' />
-        <input type='number' name='height' placeholder='height' />
+      <h2>UserForm</h2>
+      <p>
+        Name: {inputs.firstName}, Lastname: {inputs.lastName}
+      </p>
+      <form onSubmit={handleFormSubmit}>
+        <input
+          value={inputs.firstName}
+          onChange={handleInput}
+          type='text'
+          name='firstName'
+          placeholder='first Name'
+        />
+        <input
+          value={inputs.lastName}
+          onChange={handleInput}
+          type='text'
+          name='lastName'
+          placeholder='Last Name'
+        />
+        <input
+          value={inputs.town}
+          onChange={handleInput}
+          type='text'
+          name='town'
+          placeholder='Town'
+        />
+        <input
+          value={inputs.hobbies}
+          onChange={handleInput}
+          type='text'
+          name='hobbies'
+          placeholder='hobbies'
+        />
+        <input
+          value={inputs.age}
+          onChange={handleInput}
+          type='number'
+          name='age'
+          placeholder='age'
+        />
+        <input
+          value={inputs.height}
+          onChange={handleInput}
+          type='number'
+          name='height'
+          placeholder='height'
+        />
         <Btn submit>Add</Btn>
       </form>
     </div>
