@@ -1,6 +1,6 @@
 function Btn(props) {
   return (
-    <button className={props.className} onClick={props.onClick}>
+    <button type={props.submit && 'submit'} className={props.className} onClick={props.onClick}>
       {props.children}
     </button>
   );
