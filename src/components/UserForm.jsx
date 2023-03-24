@@ -10,12 +10,14 @@ function UserForm() {
     age: '',
     height: '',
   });
+  const [formSent, setFormSent] = useState(false);
 
   function handleFormSubmit(e) {
     // perimti formos valdyma ir neleisti perkrauti
     e.preventDefault();
     console.log('lets react');
     console.log(inputs);
+    setFormSent(true);
   }
 
   function handleInput(e) {
@@ -28,54 +30,66 @@ function UserForm() {
   return (
     <div className='container'>
       <h2>UserForm</h2>
-      <p>
-        Name: {inputs.firstName}, Lastname: {inputs.lastName}
-      </p>
-      <form onSubmit={handleFormSubmit}>
-        <input
-          value={inputs.firstName}
-          onChange={handleInput}
-          type='text'
-          name='firstName'
-          placeholder='first Name'
-        />
-        <input
-          value={inputs.lastName}
-          onChange={handleInput}
-          type='text'
-          name='lastName'
-          placeholder='Last Name'
-        />
-        <input
-          value={inputs.town}
-          onChange={handleInput}
-          type='text'
-          name='town'
-          placeholder='Town'
-        />
-        <input
-          value={inputs.hobbies}
-          onChange={handleInput}
-          type='text'
-          name='hobbies'
-          placeholder='hobbies'
-        />
-        <input
-          value={inputs.age}
-          onChange={handleInput}
-          type='number'
-          name='age'
-          placeholder='age'
-        />
-        <input
-          value={inputs.height}
-          onChange={handleInput}
-          type='number'
-          name='height'
-          placeholder='height'
-        />
-        <Btn submit>Add</Btn>
-      </form>
+      {!formSent && (
+        <form onSubmit={handleFormSubmit}>
+          <input
+            value={inputs.firstName}
+            onChange={handleInput}
+            type='text'
+            name='firstName'
+            placeholder='first Name'
+          />
+          <input
+            value={inputs.lastName}
+            onChange={handleInput}
+            type='text'
+            name='lastName'
+            placeholder='Last Name'
+          />
+          <input
+            value={inputs.town}
+            onChange={handleInput}
+            type='text'
+            name='town'
+            placeholder='Town'
+          />
+          <input
+            value={inputs.hobbies}
+            onChange={handleInput}
+            type='text'
+            name='hobbies'
+            placeholder='hobbies'
+          />
+          <input
+            value={inputs.age}
+            onChange={handleInput}
+            type='number'
+            name='age'
+            placeholder='age'
+          />
+          <input
+            value={inputs.height}
+            onChange={handleInput}
+            type='number'
+            name='height'
+            placeholder='height'
+          />
+          <Btn submit>Add</Btn>
+        </form>
+      )}
+      {formSent && (
+        <div className='formSuccess'>
+          <h2>Patikrinkite duomenis</h2>
+          <p>
+            Name: {inputs.firstName}, Lastname: {inputs.lastName}
+          </p>
+          <p>Town: {inputs.town}</p>
+          <Btn onClick={() => setFormSent(false)}>Go back</Btn>
+          <Btn>Siusti</Btn>
+        </div>
+      )}
+
+      {/* <div>Forma isiusta</div> */}
     </div>
   );
 }
