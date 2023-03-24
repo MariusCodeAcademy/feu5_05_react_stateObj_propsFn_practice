@@ -17,7 +17,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="2" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #80ffbb;&quot;&gt;PanelList /&lt;/span&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="280" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="280" y="-50" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(25, 53, 73); font-family: &amp;quot;Cascadia code PL&amp;quot;, Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace, Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;color: #80ffbb;&quot;&gt;Panel&lt;/span&gt;&lt;span style=&quot;color: #e1efff;&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="120" y="160" width="120" height="60" as="geometry"/>
